@@ -1,15 +1,16 @@
 :root {
-  --ink: #15202b;
-  --muted: #516171;
-  --line: #d8e0e8;
-  --paper: #f7f8f6;
+  --ink: #182028;
+  --muted: #5b625f;
+  --line: #d8d0c2;
+  --paper: #f1eadf;
   --white: #ffffff;
-  --blue: #1e4f8f;
-  --green: #436b5a;
-  --gold: #9b6b2f;
-  --panel: #edf2f5;
+  --blue: #254f83;
+  --green: #245f4d;
+  --gold: #8c6a3f;
+  --panel: #e9e1d4;
+  --section: #fbf7ee;
   color-scheme: light;
-  font-family: "Aptos", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "Source Sans 3", "Aptos", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 * {
@@ -24,7 +25,8 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.62;
 }
 
 a {
@@ -37,7 +39,7 @@ a:hover {
 }
 
 .site-header {
-  background: rgba(247, 248, 246, 0.95);
+  background: rgba(241, 234, 223, 0.95);
   border-bottom: 1px solid var(--line);
   position: sticky;
   top: 0;
@@ -51,28 +53,28 @@ nav {
   justify-content: flex-end;
   margin: 0 auto;
   max-width: 1120px;
-  min-height: 56px;
+  min-height: 60px;
   padding: 0 24px;
 }
 
 nav a {
   color: var(--ink);
-  font-size: 0.95rem;
-  font-weight: 650;
+  font-size: 0.88rem;
+  font-weight: 600;
   text-decoration: none;
 }
 
 .hero {
   align-items: center;
   background:
-    linear-gradient(90deg, rgba(247, 248, 246, 0.82), rgba(247, 248, 246, 0.3) 52%, rgba(247, 248, 246, 0)),
+    linear-gradient(90deg, rgba(241, 234, 223, 0.86), rgba(241, 234, 223, 0.34) 52%, rgba(241, 234, 223, 0)),
     url("/assets/hero-abstract-lithograph-emerald-softline-v2.png");
   background-position: center;
   background-size: cover;
   color: var(--ink);
   display: flex;
-  min-height: 58vh;
-  padding: 96px 24px 72px;
+  min-height: calc(100vh - 60px);
+  padding: 108px 24px 96px;
 }
 
 .hero-copy {
@@ -82,37 +84,41 @@ nav a {
 }
 
 .eyebrow {
-  color: #2f685a;
-  font-size: 0.92rem;
+  color: var(--green);
+  font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 0;
-  margin: 0 0 14px;
+  margin: 0 0 18px;
   text-transform: uppercase;
 }
 
 h1,
 h2 {
+  font-family: "Cormorant Garamond", Garamond, Georgia, "Times New Roman", serif;
   line-height: 1.12;
   margin: 0;
 }
 
 h1 {
-  font-size: clamp(3rem, 7vw, 6.5rem);
-  font-weight: 780;
+  font-size: clamp(4rem, 9vw, 8.6rem);
+  font-weight: 600;
   max-width: 920px;
 }
 
 h2 {
   color: var(--ink);
-  font-size: 1.6rem;
+  font-size: 2.15rem;
+  font-weight: 600;
   margin-bottom: 18px;
 }
 
 .role {
-  font-size: clamp(1.25rem, 2vw, 1.7rem);
-  font-weight: 650;
-  margin: 20px 0 0;
-  max-width: 800px;
+  font-family: "Cormorant Garamond", Garamond, Georgia, "Times New Roman", serif;
+  font-size: clamp(1.45rem, 2.1vw, 2rem);
+  font-weight: 500;
+  line-height: 1.28;
+  margin: 24px 0 0;
+  max-width: 760px;
 }
 
 .institution {
@@ -133,7 +139,8 @@ h2 {
   border: 1px solid rgba(21, 32, 43, 0.45);
   color: var(--ink);
   display: inline-flex;
-  font-weight: 700;
+  font-size: 0.95rem;
+  font-weight: 650;
   justify-content: center;
   min-height: 44px;
   padding: 10px 16px;
@@ -159,26 +166,20 @@ h2 {
 .content {
   margin: 0 auto;
   max-width: 1120px;
-  padding: 56px 24px;
+  padding: 68px 24px;
 }
 
 .band {
-  background: var(--white);
+  background: var(--section);
   border-bottom: 1px solid var(--line);
   border-top: 1px solid var(--line);
 }
 
 .content p {
   color: var(--muted);
-  font-size: 1.08rem;
+  font-size: 1.05rem;
   margin: 0 0 16px;
   max-width: 850px;
-}
-
-.two-column {
-  display: grid;
-  gap: 32px;
-  grid-template-columns: minmax(0, 1fr) 340px;
 }
 
 .expertise-list,
@@ -202,21 +203,6 @@ h2 {
   padding: 7px 0 7px 14px;
 }
 
-.reference-panel {
-  background: var(--panel);
-  border: 1px solid var(--line);
-  padding: 24px;
-}
-
-.reference-panel p {
-  color: var(--muted);
-  margin-top: 0;
-}
-
-.reference-panel a {
-  font-weight: 700;
-}
-
 footer {
   color: var(--muted);
   margin: 0 auto;
@@ -235,16 +221,35 @@ footer p {
   }
 
   .hero {
-    min-height: 68vh;
-    padding-top: 72px;
+    background-position: 58% center;
+    min-height: calc(100vh - 60px);
+    padding: 84px 20px 56px;
   }
 
-  .two-column,
+  h1 {
+    font-size: clamp(3.4rem, 17vw, 5.1rem);
+    max-width: 7ch;
+  }
+
+  .role {
+    font-size: 1.08rem;
+    max-width: 22rem;
+  }
+
+  .actions {
+    gap: 10px;
+  }
+
+  .button {
+    min-height: 42px;
+    padding: 9px 13px;
+  }
+
   .expertise-list {
     grid-template-columns: 1fr;
   }
 
   .content {
-    padding: 42px 20px;
+    padding: 48px 20px;
   }
 }
