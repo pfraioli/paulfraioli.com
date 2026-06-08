@@ -1,12 +1,13 @@
 # Paul Fraioli
 
-> Personal website for Paul Fraioli, a noted expert on the geopolitics of technology, global security and defence, geo-economics, nuclear weapons and US foreign policy.
+> Personal website for Paul Fraioli, an expert on the geopolitics of technology, global security and defence, geo-economics, nuclear weapons issues and US foreign policy.
 
 ## Core Page
 
 - [Paul Fraioli](https://www.paulfraioli.com/): canonical personal website and profile hub.
+- [Strategic Comments](https://www.tandfonline.com/journals/tstc20): journal published by Routledge.
 
-## Institutional Profile
+## Institutional Biography
 
 - [International Institute for Strategic Studies biography](https://www.iiss.org/people/editors/paul-fraioli/): institutional biography for Paul Fraioli.
 
@@ -18,13 +19,14 @@
 - [Scopus](https://www.scopus.com/authid/detail.uri?authorId=59227862600)
 - [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=11911528)
 - [LinkedIn](https://www.linkedin.com/in/paulfraioli/)
+- [𝕏](https://x.com/pfraioli)
 
 ## Topics
 
 - Geopolitics of technology
 - Global security and defence
 - Geo-economics
-- Nuclear weapons
+- Nuclear weapons issues
 - US foreign policy
 - Artificial intelligence
 - Technology and trade policy
