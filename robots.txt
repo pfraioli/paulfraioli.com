@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.paulfraioli.com/sitemap.xml
+Sitemap: https://paulfraioli.com/sitemap.xml

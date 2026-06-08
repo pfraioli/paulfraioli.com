@@ -4,7 +4,7 @@ Static personal website for Paul Fraioli.
 
 The site is intended to be hosted on Cloudflare Pages at:
 
-https://www.paulfraioli.com/
+https://paulfraioli.com/
 
 ## Files
 
