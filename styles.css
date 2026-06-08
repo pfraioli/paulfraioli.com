@@ -214,16 +214,24 @@ h2 {
 }
 
 .publication-title {
-  font-family: "Cormorant Garamond", Garamond, Georgia, "Times New Roman", serif;
-  font-size: clamp(1.55rem, 2.4vw, 2.2rem);
+  font-size: clamp(1.18rem, 1.8vw, 1.5rem);
   font-weight: 600;
-  line-height: 1.18;
+  line-height: 1.35;
   margin: 0 0 8px;
 }
 
 .publication-title a {
   color: var(--ink);
   text-decoration-thickness: 1px;
+}
+
+.publication-format {
+  color: var(--green);
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  margin-left: 8px;
+  text-transform: uppercase;
 }
 
 .publication-meta {
