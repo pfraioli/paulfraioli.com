@@ -209,19 +209,19 @@ h2 {
 
 .publication {
   border-left: 3px solid var(--green);
-  max-width: 760px;
+  max-width: 900px;
   padding: 4px 0 4px 18px;
 }
 
 .publication-title {
   align-items: baseline;
   display: flex;
-  gap: 18px;
-  justify-content: space-between;
+  gap: 22px;
+  justify-content: flex-start;
   font-size: clamp(1.18rem, 1.8vw, 1.5rem);
   font-weight: 600;
   line-height: 1.35;
-  margin: 0 0 8px;
+  margin: 0 0 14px;
 }
 
 .publication-links {
@@ -254,6 +254,14 @@ h2 {
   font-size: 0.98rem;
   font-weight: 600;
   margin: 0;
+}
+
+.publication-abstract {
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.65;
+  margin: 0;
+  max-width: 880px;
 }
 
 footer {
