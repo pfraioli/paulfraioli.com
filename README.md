@@ -16,6 +16,7 @@ https://www.paulfraioli.com/
 - `assets/hero-minimal-green.png`: earlier generated minimalist hero option
 - `assets/hero-minimal-red.png`: earlier generated minimalist hero option
 - `assets/hero-geopolitics.png`: earlier generated hero background option
+- `publications/strange-days-ai-next-industrial-revolution.pdf`: hosted featured publication
 - `robots.txt`: crawler access and sitemap pointer
 - `sitemap.xml`: canonical URL for search engines
 - `llms.txt`: machine-readable summary for AI agents and retrieval systems

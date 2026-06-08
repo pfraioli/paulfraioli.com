@@ -207,6 +207,32 @@ h2 {
   padding: 7px 0 7px 14px;
 }
 
+.publication {
+  border-left: 3px solid var(--green);
+  max-width: 760px;
+  padding: 4px 0 4px 18px;
+}
+
+.publication-title {
+  font-family: "Cormorant Garamond", Garamond, Georgia, "Times New Roman", serif;
+  font-size: clamp(1.55rem, 2.4vw, 2.2rem);
+  font-weight: 600;
+  line-height: 1.18;
+  margin: 0 0 8px;
+}
+
+.publication-title a {
+  color: var(--ink);
+  text-decoration-thickness: 1px;
+}
+
+.publication-meta {
+  color: var(--muted);
+  font-size: 0.98rem;
+  font-weight: 600;
+  margin: 0;
+}
+
 footer {
   color: var(--muted);
   margin: 0 auto;
