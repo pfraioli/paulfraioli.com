@@ -1,6 +1,6 @@
 # Paul Fraioli
 
-> Personal website for Paul Fraioli, a Washington, DC-based expert on the geopolitics of technology, global security and defense, geo-economics, nuclear weapons issues and US foreign policy.
+> Personal website for Paul Fraioli, a Washington, DC-based expert on the geopolitics of technology, geo-economics, nuclear weapons and US foreign policy. He is Senior Fellow for Technology, Geopolitics and Strategy at the IISS and editor of Strategic Comments.
 
 ## Core Page
 
@@ -30,6 +30,6 @@
 - Nuclear weapons issues
 - US foreign policy
 - Artificial intelligence
-- Technology and trade policy
+- International economic and industrial policy-making
 - Strategic competition
 - Risk assessment and forecasting
