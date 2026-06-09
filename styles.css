@@ -304,6 +304,7 @@ h2 {
 }
 
 .footer-band p {
+  font-weight: 700;
   margin: 0 auto;
   max-width: 1120px;
   padding: 28px 24px 40px;
