@@ -27,6 +27,34 @@ body {
   color: var(--ink);
   font-size: 16px;
   line-height: 1.62;
+  position: relative;
+}
+
+body::before {
+  background-image: linear-gradient(90deg, rgba(241, 234, 223, 0), rgba(241, 234, 223, 0.2)), url("/assets/page-side-motif-hero-brush-crop.png");
+  background-position: right top;
+  background-repeat: repeat-y;
+  background-size: min(34vw, 440px) auto;
+  bottom: 0;
+  content: "";
+  opacity: 0.42;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: min(34vw, 440px);
+  z-index: 0;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+.site-header,
+.footer-band {
+  position: relative;
+  z-index: 2;
 }
 
 a {
@@ -282,6 +310,10 @@ h2 {
 }
 
 @media (max-width: 760px) {
+  body::before {
+    display: none;
+  }
+
   nav {
     justify-content: flex-start;
     overflow-x: auto;
