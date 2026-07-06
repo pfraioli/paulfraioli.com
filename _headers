@@ -1,0 +1,13 @@
+/
+  Link: </llms.txt>; rel="alternate"; type="text/markdown"; title="LLM summary"
+  Link: </llms-full.txt>; rel="alternate"; type="text/markdown"; title="Full LLM context"
+  Link: </index.md>; rel="alternate"; type="text/markdown"; title="Markdown profile"
+  Link: </sitemap.xml>; rel="sitemap"; type="application/xml"
+  Link: </.well-known/agent-skills/index.json>; rel="service-desc"; type="application/json"
+
+/index.html
+  Link: </llms.txt>; rel="alternate"; type="text/markdown"; title="LLM summary"
+  Link: </llms-full.txt>; rel="alternate"; type="text/markdown"; title="Full LLM context"
+  Link: </index.md>; rel="alternate"; type="text/markdown"; title="Markdown profile"
+  Link: </sitemap.xml>; rel="sitemap"; type="application/xml"
+  Link: </.well-known/agent-skills/index.json>; rel="service-desc"; type="application/json"

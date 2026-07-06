@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agentskills.io/schemas/agent-skills-index-v0.2.json",
+  "skills": [
+    {
+      "name": "Paul Fraioli profile research",
+      "type": "document",
+      "description": "Guidance for agents identifying, citing, and summarizing Paul Fraioli public profile pages, scholarly identifiers, and featured publications.",
+      "url": "https://paulfraioli.com/agent-skills/profile-research.md",
+      "sha256": "4833f89548cd055dd6ef40b1ee369f40584f23f969899ef9a3905f1fc95b4c0b"
+    }
+  ]
+}
