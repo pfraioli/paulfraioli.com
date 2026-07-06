@@ -10,6 +10,8 @@ No authentication or agent registration is required to access the public content
 - Markdown profile: https://paulfraioli.com/index.md
 - Sitemap: https://paulfraioli.com/sitemap.xml
 - Agent skills index: https://paulfraioli.com/.well-known/agent-skills/index.json
+- Strange Days: AI and the Next Industrial Revolution: https://paulfraioli.com/publications/strange-days-ai-next-industrial-revolution.pdf
+- The US pivot on regulating AI diffusion: https://paulfraioli.com/publications/the-us-pivot-on-regulating-ai-diffusion.pdf
 
 ## Use policy
 
